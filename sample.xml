@@ -1,0 +1,1555 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation-array>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.web.controller.BaseController.logger isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092306</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>20</start>
+        <end>20</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>20</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-war/src/main/java/com/drfirst/pdmp/web/controller/BaseController.java</fileName>
+    <moduleName>EPCS2 App for Prescription Drug Monitoring Program(PDMP) Web module</moduleName>
+    <packageName>com.drfirst.pdmp.web.controller</packageName>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092305</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-war/src/main/java/com/drfirst/pdmp/web/controller</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>9d5c9dc3938e6d17cf54de75c4f59c48</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375679000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Found reliance on default encoding in com.drfirst.pdmp.service.impl.IhubServiceImpl.fetchAccessToken(int): String.getBytes()</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092313</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>198</start>
+        <end>198</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>198</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-service/src/main/java/com/drfirst/pdmp/service/impl/IhubServiceImpl.java</fileName>
+    <moduleName>EPCS2 App for Prescription Drug Monitoring Program(PDMP) Service module</moduleName>
+    <packageName>com.drfirst.pdmp.service.impl</packageName>
+    <category>I18N</category>
+    <type>DM_DEFAULT_ENCODING</type>
+    <contextHashCode>-2177950378745092312</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/impl</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>e17b90b2c80a2256601599549924d0f</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>19</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.web.dto.ExtResourceDto.setContent(byte[]) may expose internal representation by storing an externally mutable object into ExtResourceDto.content</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092303</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>35</start>
+        <end>35</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>35</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-war/src/main/java/com/drfirst/pdmp/web/dto/ExtResourceDto.java</fileName>
+    <moduleName reference="../../bug/moduleName"/>
+    <packageName>com.drfirst.pdmp.web.dto</packageName>
+    <category>MALICIOUS_CODE</category>
+    <type>EI_EXPOSE_REP2</type>
+    <contextHashCode>-2177950378745092302</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-war/src/main/java/com/drfirst/pdmp/web/dto</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>378e2d29468eed8832b7bf7a8a593cb9</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375679000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>18</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.IHUB_SERVICE_FAIL isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092334</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>80</start>
+        <end>80</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>80</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-service/src/main/java/com/drfirst/pdmp/service/constant/AppStatusCodeConstant.java</fileName>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName>com.drfirst.pdmp.service.constant</packageName>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092333</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>3e453601772224c8283aa50a5aaa8600</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.entity.PdmpUsageAisEntity.getCallEndAt() may expose internal representation by returning PdmpUsageAisEntity.callEndAt</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092318</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>149</start>
+        <end>149</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>149</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-service/src/main/java/com/drfirst/pdmp/service/entity/PdmpUsageAisEntity.java</fileName>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName>com.drfirst.pdmp.service.entity</packageName>
+    <category>MALICIOUS_CODE</category>
+    <type>EI_EXPOSE_REP</type>
+    <contextHashCode>-2177950378745092317</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/entity</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>b417011753b89c132be5f676b841afd1</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>18</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.ExtService_Appriss_Error_Connecting isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092342</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>72</start>
+        <end>72</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>72</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092341</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>a0c20ad6320bd3424587c83e00321929</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Dead store to httpResponse in com.drfirst.pdmp.web.security.AccessContextFilter.doFilter(ServletRequest, ServletResponse, FilterChain)</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092302</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>63</start>
+        <end>63</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>63</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-war/src/main/java/com/drfirst/pdmp/web/security/AccessContextFilter.java</fileName>
+    <moduleName reference="../../bug/moduleName"/>
+    <packageName>com.drfirst.pdmp.web.security</packageName>
+    <category>STYLE</category>
+    <type>DLS_DEAD_LOCAL_STORE</type>
+    <contextHashCode>-2177950378745092301</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-war/src/main/java/com/drfirst/pdmp/web/security</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>3a0c30fa5ba6549eb56d1a4ccc4d25a2</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375679000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>17</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.ExtService_Appriss_504_Gateway_Timeout isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092345</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>75</start>
+        <end>75</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>75</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092344</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>efe3b1b1a25697269dc99c77ed53b1f2</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.SUPERNPI_NOT_AVAILABLE isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092332</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>61</start>
+        <end>61</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>61</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092331</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>1ba678548a026b6950e3c8aaafde7aeb</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.entity.PdmpUsageAisEntity.setCallEndAt(Date) may expose internal representation by storing an externally mutable object into PdmpUsageAisEntity.callEndAt</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092316</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>153</start>
+        <end>153</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>153</primaryLineNumber>
+    <fileName reference="../../bug[5]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[5]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>EI_EXPOSE_REP2</type>
+    <contextHashCode>-2177950378745092315</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/entity</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>21bc5e460b4372bb5c52e7e0503f7120</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>18</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.entity.PdmpUsageAisEntity.setCallStartAt(Date) may expose internal representation by storing an externally mutable object into PdmpUsageAisEntity.callStartAt</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092315</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>145</start>
+        <end>145</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>145</primaryLineNumber>
+    <fileName reference="../../bug[5]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[5]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>EI_EXPOSE_REP2</type>
+    <contextHashCode>-2177950378745092314</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/entity</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>4aac6bbca58e8d8e0c33949cdd7ef147</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>18</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.VALIDATION_COMMON_NOT_CORRECT isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092328</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>85</start>
+        <end>85</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>85</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092327</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>6ca35d3767db0f2b9e7f57d3571041a2</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.ExtService_Appriss_Request_Timed_Out_Connecting isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092337</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>73</start>
+        <end>73</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>73</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092336</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>671a59b9de52881c62813078222dd941</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.SUPERNPI_NPI_NOT_MATCH isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092330</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>65</start>
+        <end>65</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>65</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092329</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>32aa6f0237fc3f9691004bec63f1b1eb</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.SUPERNPI_BAD_REQUESR isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092333</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>63</start>
+        <end>63</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>63</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092332</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>eae2f35f5d863c03ddb7fc8c775c74c2</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.VALIDATION_COMMON_REQUIRED isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092327</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>84</start>
+        <end>84</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>84</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092326</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>a6e7aa7001c9f7709b9901dc6c66a3a1</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Return value of putIfAbsent is ignored, but jaxbContext is reused in com.drfirst.pdmp.service.util.jaxb.JaxbCodec.getContext(Class)</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092310</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>140</start>
+        <end>140</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>140</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-service/src/main/java/com/drfirst/pdmp/service/util/jaxb/JaxbCodec.java</fileName>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName>com.drfirst.pdmp.service.util.jaxb</packageName>
+    <category>MT_CORRECTNESS</category>
+    <type>RV_RETURN_VALUE_OF_PUTIFABSENT_IGNORED</type>
+    <contextHashCode>-2177950378745092309</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/util/jaxb</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>b5d5442b7305bba5b6342fb104e1d3cc</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>10</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.audit.AuditEventBuilder.withEventEndTime(Date) may expose internal representation by storing an externally mutable object into AuditEventBuilder.eventEndTime</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092347</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>45</start>
+        <end>45</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>45</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-service/src/main/java/com/drfirst/pdmp/service/audit/AuditEventBuilder.java</fileName>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName>com.drfirst.pdmp.service.audit</packageName>
+    <category>MALICIOUS_CODE</category>
+    <type>EI_EXPOSE_REP2</type>
+    <contextHashCode>-2177950378745092346</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/audit</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>6c1944fd709c3a6f2a86fcaf8fa4455a</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>18</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.IHUB_BAD_REQUESR isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092336</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>81</start>
+        <end>81</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>81</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092335</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>6439674978583d94dd03da9345556bb0</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Write to static field com.drfirst.pdmp.service.audit.AuditAspect.pdmpVariableHolder from instance method com.drfirst.pdmp.service.audit.AuditAspect.setPdmpVariableHolder(PdmpVariableHolder)</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092348</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>248</start>
+        <end>248</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>248</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-service/src/main/java/com/drfirst/pdmp/service/audit/AuditAspect.java</fileName>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[18]/packageName"/>
+    <category>STYLE</category>
+    <type>ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD</type>
+    <contextHashCode>-2177950378745092347</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/audit</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>354edfae2aa5b568d1d8c0eb780c3125</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>15</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Return value of String.concat(String) ignored in com.drfirst.pdmp.service.dto.ApprissV5HtmlInfoDto.init()</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092320</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>54</start>
+        <end>54</end>
+      </range>
+      <range plugin="analysis-core@1.93">
+        <start>60</start>
+        <end>60</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>54</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-service/src/main/java/com/drfirst/pdmp/service/dto/ApprissV5HtmlInfoDto.java</fileName>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName>com.drfirst.pdmp.service.dto</packageName>
+    <category>CORRECTNESS</category>
+    <type>RV_RETURN_VALUE_IGNORED</type>
+    <contextHashCode>-2177950378745092319</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/dto</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>41e49d4dd0a73f180bd1b9b84d427fcc</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>3</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.VALIDATION_COMMON_UNSUPPORTED_LENGTH isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092323</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>86</start>
+        <end>86</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>86</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092322</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>28a7d2bb5a2776508f6f80dad359875a</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.ExtService_Appriss_Request_Error_Returned isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092338</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>74</start>
+        <end>74</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>74</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092337</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>d651b5d2d536624039f0182f2e663340</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>instanceof will always return true for all non-null values in com.drfirst.pdmp.service.impl.IhubServiceImpl.fetchAccessToken(int), since all RuntimeException are instances of RuntimeException</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092314</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>208</start>
+        <end>208</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>208</primaryLineNumber>
+    <fileName reference="../../bug[2]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[2]/packageName"/>
+    <category>STYLE</category>
+    <type>BC_VACUOUS_INSTANCEOF</type>
+    <contextHashCode>-2177950378745092313</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/impl</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>212fb517410723ea501336a76dc85961</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>17</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Repeated conditional test in com.drfirst.pdmp.service.util.validator.PdmpQueryRequestValidator.validateProvider(List, Provider)</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092309</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>159</start>
+        <end>159</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>159</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-service/src/main/java/com/drfirst/pdmp/service/util/validator/PdmpQueryRequestValidator.java</fileName>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName>com.drfirst.pdmp.service.util.validator</packageName>
+    <category>CORRECTNESS</category>
+    <type>RpC_REPEATED_CONDITIONAL_TEST</type>
+    <contextHashCode>-2177950378745092308</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/util/validator</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>573f60deabf45dcc65889c50d56146d3</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>6</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.ExtService_Appriss_Not_Available isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092339</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>68</start>
+        <end>68</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>68</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092338</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>c771de466a9579f0b48b0e3edae95b02</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.IHUB_NOT_AVAILABLE isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092335</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>79</start>
+        <end>79</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>79</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092334</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>52964c2be80ef5ddeb4dcdecf84c56ce</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.entity.PdmpUsageAisEntity.getCallStartAt() may expose internal representation by returning PdmpUsageAisEntity.callStartAt</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092317</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>141</start>
+        <end>141</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>141</primaryLineNumber>
+    <fileName reference="../../bug[5]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[5]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>EI_EXPOSE_REP</type>
+    <contextHashCode>-2177950378745092316</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/entity</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>520c033be51156d2faec86ed2831d94b</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>18</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Possible null pointer dereference of apprissV5Report in com.drfirst.pdmp.web.controller.PdmpApprissV5HtmlController.fetch(PdmpQueryRequest, HttpServletResponse)</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092305</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>102</start>
+        <end>102</end>
+      </range>
+      <range plugin="analysis-core@1.93">
+        <start>92</start>
+        <end>92</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>102</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-war/src/main/java/com/drfirst/pdmp/web/controller/PdmpApprissV5HtmlController.java</fileName>
+    <moduleName reference="../../bug/moduleName"/>
+    <packageName reference="../../bug/packageName"/>
+    <category>CORRECTNESS</category>
+    <type>NP_NULL_ON_SOME_PATH</type>
+    <contextHashCode>-2177950378745092304</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-war/src/main/java/com/drfirst/pdmp/web/controller</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>e755c1793b9323658542ab21907af81a</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375679000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>8</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.VALIDATION_REQUIRED_PROVIDER_NPI isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092321</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>58</start>
+        <end>58</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>58</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092320</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>134795e7ace392a76dc9ef9c5062ef77</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.web.dto.ExtResourceDto.getContent() may expose internal representation by returning ExtResourceDto.content</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092304</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>31</start>
+        <end>31</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>31</primaryLineNumber>
+    <fileName reference="../../bug[3]/fileName"/>
+    <moduleName reference="../../bug/moduleName"/>
+    <packageName reference="../../bug[3]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>EI_EXPOSE_REP</type>
+    <contextHashCode>-2177950378745092303</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-war/src/main/java/com/drfirst/pdmp/web/dto</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>d8ddd4e7531cd1b39bbae2e51d8e22db</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375679000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>18</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.audit.AuditEventBuilder.withEventStartTime(Date) may expose internal representation by storing an externally mutable object into AuditEventBuilder.eventStartTime</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092346</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>40</start>
+        <end>40</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>40</primaryLineNumber>
+    <fileName reference="../../bug[18]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[18]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>EI_EXPOSE_REP2</type>
+    <contextHashCode>-2177950378745092345</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/audit</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>9d1836035ca544a358cbcf2f62b8266b</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>18</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Possible null pointer dereference of status in com.drfirst.pdmp.service.impl.SuperNpiServiceImpl.orgAuth(Organization)</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092311</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>194</start>
+        <end>194</end>
+      </range>
+      <range plugin="analysis-core@1.93">
+        <start>193</start>
+        <end>193</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>194</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-service/src/main/java/com/drfirst/pdmp/service/impl/SuperNpiServiceImpl.java</fileName>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[2]/packageName"/>
+    <category>CORRECTNESS</category>
+    <type>NP_NULL_ON_SOME_PATH</type>
+    <contextHashCode>-2177950378745092310</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/impl</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>183237ebf21112c65beac4cf361d8b94</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>8</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.SUPERNPI_NPI_NOT_FOUND isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092331</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>64</start>
+        <end>64</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>64</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092330</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>9b9f041f7ace238a60fc29764ca5f65</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.ExtService_Appriss_Disallowed isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092344</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>71</start>
+        <end>71</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>71</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092343</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>b87368ac297660e803be930eb4883022</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.SUPERNPI_SERVICE_FAIL isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092329</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>62</start>
+        <end>62</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>62</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092328</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>39b8ccfe4c0a58c3a257e6b470ddd6f5</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Possible null pointer dereference of status in com.drfirst.pdmp.service.impl.SuperNpiServiceImpl.individualAuth(Provider)</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092312</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>120</start>
+        <end>120</end>
+      </range>
+      <range plugin="analysis-core@1.93">
+        <start>119</start>
+        <end>119</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>120</primaryLineNumber>
+    <fileName reference="../../bug[33]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[2]/packageName"/>
+    <category>CORRECTNESS</category>
+    <type>NP_NULL_ON_SOME_PATH</type>
+    <contextHashCode>-2177950378745092311</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/impl</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>7aff1d3d295319a1a55f8d030fbda8a</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>8</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.VALIDATION_COMMON_SETTING_IS_INCORRECT isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092326</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>83</start>
+        <end>83</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>83</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092325</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>a1f35716bf0db016838858663d6921ef</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Write to static field com.drfirst.pdmp.service.audit.AuditAspect.pdmpStatusProvider from instance method com.drfirst.pdmp.service.audit.AuditAspect.setPdmpStatusProvider(PdmpStatusProvider)</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092349</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>253</start>
+        <end>253</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>253</primaryLineNumber>
+    <fileName reference="../../bug[20]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[18]/packageName"/>
+    <category>STYLE</category>
+    <type>ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD</type>
+    <contextHashCode>-2177950378745092348</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/audit</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>2071dbc4ac374f6df09d943f06b13f9c</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>15</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.ExtService_Appriss_Error isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092343</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>70</start>
+        <end>70</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>70</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092342</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>c49d114a228df0d64b09b69a882d33ea</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.ExtService_Appriss_Failed_Authenticatin isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092341</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>69</start>
+        <end>69</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>69</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092340</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>a81c73fb8ec4968d5855e42106edbec8</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.ExtService_Appriss_Invalid_Xml_Document isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092340</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>76</start>
+        <end>76</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>76</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092339</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>b0de27ebe9e8838c643d3c83d336a0b0</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.VALIDATION_COMMON_UNSUPPORTED_PASSWORD_FORMAT isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092322</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>89</start>
+        <end>89</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>89</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092321</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>bda539b780b8960437e17d1e81962166</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Unused field: com.drfirst.pdmp.service.entity.PdmpBehaviorLog.pdmpServiceProviderName</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092319</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>0</start>
+        <end>0</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>-1</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-service/src/main/java/com/drfirst/pdmp/service/entity/PdmpBehaviorLog.java</fileName>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[5]/packageName"/>
+    <category>PERFORMANCE</category>
+    <type>UUF_UNUSED_FIELD</type>
+    <contextHashCode>-2177950378745092318</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/entity</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>88ae14afff008c415986332c703ab05</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>18</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.VALIDATION_COMMON_UNSUPPORTED_FORMAT isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092324</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>87</start>
+        <end>87</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>87</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092323</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>90fb4817990e65afef42639212b8639e</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>Incorrect lazy initialization and update of static field com.drfirst.pdmp.dto.common.codec.Json2Codec.jsonMapper in com.drfirst.pdmp.dto.common.codec.Json2Codec.getJSonMapper()</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092307</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>26</start>
+        <end>27</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>26</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-shared/src/main/java/com/drfirst/pdmp/dto/common/codec/Json2Codec.java</fileName>
+    <moduleName>EPCS2 App for Prescription Drug Monitoring Program(PDMP) Shared module</moduleName>
+    <packageName>com.drfirst.pdmp.dto.common.codec</packageName>
+    <category>MT_CORRECTNESS</category>
+    <type>LI_LAZY_INIT_UPDATE_STATIC</type>
+    <contextHashCode>-2177950378745092306</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-shared/src/main/java/com/drfirst/pdmp/dto/common/codec</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>607bde60664bf19f60de1c45b65292ab</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375639000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>8</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.constant.AppStatusCodeConstant.VALIDATION_COMMON_UNSUPPORTED_CONTENT isn&apos;t final but should be</message>
+    <priority>HIGH</priority>
+    <key>-2177950378745092325</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>88</start>
+        <end>88</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>88</primaryLineNumber>
+    <fileName reference="../../bug[4]/fileName"/>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[4]/packageName"/>
+    <category>MALICIOUS_CODE</category>
+    <type>MS_SHOULD_BE_FINAL</type>
+    <contextHashCode>-2177950378745092324</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/constant</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>23484d9723af84cf1f63ffa29e10de0f</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>16</rank>
+  </bug>
+  <bug plugin="findbugs@4.71">
+    <message>com.drfirst.pdmp.service.util.validator.ValidRuleValidator.getExpressionResult(Object, String) has Boolean return type and returns explicit null</message>
+    <priority>NORMAL</priority>
+    <key>-2177950378745092308</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.93">
+        <start>648</start>
+        <end>648</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>648</primaryLineNumber>
+    <fileName>/var/jenkins/workspace/test-findbugs-svn/pdmp-service/src/main/java/com/drfirst/pdmp/service/util/validator/ValidRuleValidator.java</fileName>
+    <moduleName reference="../../bug[2]/moduleName"/>
+    <packageName reference="../../bug[25]/packageName"/>
+    <category>BAD_PRACTICE</category>
+    <type>NP_BOOLEAN_RETURN_NULL</type>
+    <contextHashCode>-2177950378745092307</contextHashCode>
+    <origin>findbugs</origin>
+    <pathName>pdmp-service/src/main/java/com/drfirst/pdmp/service/util/validator</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>20</build>
+    <tooltip></tooltip>
+    <instanceHash>5829fd4fb77f30b390ec8cadff17fe5b</instanceHash>
+    <ageInDays>0</ageInDays>
+    <firstSeen>1513375657000</firstSeen>
+    <reviewCount>0</reviewCount>
+    <notAProblem>false</notAProblem>
+    <inCloud>true</inCloud>
+    <shouldBeInCloud>false</shouldBeInCloud>
+    <rank>14</rank>
+  </bug>
+</annotation-array>
